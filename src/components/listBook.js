@@ -22,6 +22,8 @@ const ListBook = () => {
             });
 
             setBooks(books.filter(book => book.book_number !== id));
+
+            window.location = "/";
         } catch (err) {
             console.error(err.message);
         }
