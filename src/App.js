@@ -3,6 +3,7 @@ import './App.css';
 
 import InputBook from "./components/inputBook";
 import ListBook from "./components/listBook";
+import SqlQuery from './components/sqlQuery';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <div className='container'>
       <InputBook />
       <ListBook />
+      <SqlQuery />
     </div>
   </Fragment>);
 }

@@ -121,7 +121,7 @@ const InputBook = () => {
                         <input type="text" id="quantity" className="form-control" name="quantity" defaultValue={inputs.quantity} onChange={onChange}/>
                     </div>
                 </div>
-                <button className="btn btn-success">Add</button>
+                <button className="btn btn-success" style={{width: 100}}>Add</button>
             </form>
         </Fragment>
     );
